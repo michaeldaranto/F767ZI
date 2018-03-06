@@ -1,5 +1,5 @@
 # F767ZI
-Experiment with Nucleo Board F767ZI
+Experiment with Nucleo Board F767ZI - Blink the Led !
 
 My route to develop stm32F767ZI environment
 
