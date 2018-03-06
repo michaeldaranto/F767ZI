@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "cwd": "${workspaceRoot}",
+            "name": "Debug-OpenOCD",
+            "request": "launch",
+            "target": "./build/F767ZI.elf",
+            "type": "gdb",
+            "gdbpath" : "/usr/bin/arm-none-eabi-gdb",
+            "autorun": [
+            "target remote localhost:3333",
+            "symbol-file ./build/F767ZI.elf",
+             "monitor reset" 
+            ]
+        },
+
+
+    ],
+ }
