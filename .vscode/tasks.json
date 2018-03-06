@@ -27,7 +27,7 @@
         {
             "label": "OpenOCD-Debug",
             "type": "shell",
-            "command": "openocd -f /home/mic/VCS/F767ZI/stmf7.cfg -c  ",
+            "command": "openocd -f /home/mic/VCS/F767ZI/stmf7.cfg   ",
             "group": {
                 "kind": "build",
                 "isDefault": true
